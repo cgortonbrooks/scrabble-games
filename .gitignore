@@ -1,0 +1,24 @@
+# Large file - download from: 
+scrabble_games_sample.csv
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Java Language Server
+.project
+.classpath
+.settings/
+bin/
+out/
