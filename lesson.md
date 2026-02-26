@@ -1,12 +1,8 @@
-# Lesson: Reading & Analyzing CSV Data in Java
-
 ## Overview
 
-In this lesson you will practice **file I/O**, **String manipulation**, and **ArrayList traversal** — all topics covered on the AP Computer Science A exam — by analysing a real-world dataset of competitive Scrabble games.
+In this lesson you will practice **file I/O**, **String manipulation**, and **ArrayList traversal** by analysing a real-world dataset of competitive Scrabble games.
 
 **Goal:** Read a CSV file of Scrabble tournament results and determine which player **lost the most games**.
-
----
 
 ## Files in This Project
 
@@ -16,7 +12,9 @@ In this lesson you will practice **file I/O**, **String manipulation**, and **Ar
 | `scrabble_games_sample.csv` | Smaller 5,000-row excerpt for faster testing |
 | `ScrabbleLossesStarter.java` | Starter template with TODOs for you to complete |
 
----
+Note: the full dataset is not available it the GitHub repo because it is too large. You can download it yourself here:
+
+https://github.com/fivethirtyeight/data/tree/master/scrabble-games
 
 ## The Dataset
 
@@ -44,8 +42,6 @@ Each row in the CSV represents one Scrabble game. The columns are:
 | 17 | `date` | Date of the game |
 | 18 | `lexicon` | Lexicon used (True/False) |
 
----
-
 ## AP CSA Concepts Used
 
 This activity reinforces the following AP topics:
@@ -56,8 +52,6 @@ This activity reinforces the following AP topics:
 - **Traversal with `for` and `while` loops**
 - **Finding a maximum** in a list (standard AP algorithm)
 - **Parallel ArrayLists** — using two lists where index *i* in one corresponds to index *i* in the other
-
----
 
 ### Expected Output (sample file)
 
@@ -76,3 +70,6 @@ Player with the most losses:
 ```
 
 > **Note:** The full dataset has ~1.5 million rows and ~15,000 unique players. Because `ArrayList.indexOf()` does a linear scan, running on the full file will take noticeably longer than the sample.
+
+### BONUS
+Mr. Gorton’s high school computer science teacher was Mark Fidler, who is an avid Scrabble player. Calculate his wins and losses, and win/loss ratio. His name only appears in the full 1.5 million row data set.
